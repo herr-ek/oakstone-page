@@ -1,0 +1,99 @@
+.wrapper{
+  width: 100%;
+  padding: 0;
+}
+
+.banner{
+  height: 60vh;
+  background-image: url('/public/img/oak_wallpaper_1120x630.jpg');
+  background-size: cover;
+  /* filter: brightness(0.5); */
+  display: flex;
+  /* align-items: center; */
+  justify-content: left;
+}
+
+.darker{
+  width: 100%;
+  height: 100%;
+  background-color: #0006;
+}
+
+.caption{
+  padding: 20px;
+  color: #fff;
+  position: relative;
+  top: 20%;
+  display: flex;
+  flex-direction: column;
+}
+
+.info{
+  padding: 10px;
+  width: 100%;
+}
+
+.list-group-flush{
+  padding: 0;
+}
+
+.list-group-flush .h5{
+  margin: 0;
+}
+
+.navbar-brand{
+  display: flex;
+}
+
+.logo{
+  font-size: 5rem;
+  margin: 0;
+}
+
+@media only screen and (min-width: 500px){
+  .banner{
+    justify-content: center;
+  }
+  .caption{
+    top: 20%;
+    align-items: center;
+    font-size: 2.5rem;
+    /* text-shadow: 0px 0px 10px grey; */
+    /* background-color: #0006; */
+  }
+}
+@media only screen and (min-width: 992px){
+  .banner{
+    background-image: url('/public/img/oak_wallpaper_1920x1080.jpg');
+  }
+
+  .contact-info{
+    width: 30%;
+  }
+
+  .info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .jumbotron{
+    width: 80%;
+  }
+}
+
+@media only screen and (min-width: 1921px){
+  .banner{
+    background-image: url('/public/img/oak_wallpaper_2560x1440.jpg');
+  }
+  
+  .caption{
+    font-size: 3.5rem;
+  }
+}
+
+@media only screen and (min-width: 2560px){
+  .banner{
+    background-image: url('/public/img/oak_wallpaper_4k.jpg');
+  }
+}
