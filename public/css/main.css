@@ -7,9 +7,7 @@
   height: 60vh;
   background-image: url('/public/img/oak_wallpaper_1120x630.jpg');
   background-size: cover;
-  /* filter: brightness(0.5); */
   display: flex;
-  /* align-items: center; */
   justify-content: left;
 }
 
@@ -58,8 +56,6 @@
     top: 20%;
     align-items: center;
     font-size: 2.5rem;
-    /* text-shadow: 0px 0px 10px grey; */
-    /* background-color: #0006; */
   }
 }
 @media only screen and (min-width: 992px){
