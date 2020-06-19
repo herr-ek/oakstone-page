@@ -5,7 +5,7 @@
 
 .banner{
   height: 60vh;
-  background-image: url('img/oak_wallpaper_1120x630.jpg');
+  background-image: url('../img/oak_wallpaper_1120x630.jpg');
   background-size: cover;
   display: flex;
   justify-content: left;
@@ -60,7 +60,7 @@
 }
 @media only screen and (min-width: 992px){
   .banner{
-    background-image: url('img/oak_wallpaper_1920x1080.jpg');
+    background-image: url('../img/oak_wallpaper_1920x1080.jpg');
   }
 
   .contact-info{
@@ -80,7 +80,7 @@
 
 @media only screen and (min-width: 1921px){
   .banner{
-    background-image: url('img/oak_wallpaper_2560x1440.jpg');
+    background-image: url('../img/oak_wallpaper_2560x1440.jpg');
   }
   
   .caption{
@@ -90,6 +90,6 @@
 
 @media only screen and (min-width: 2560px){
   .banner{
-    background-image: url('img/oak_wallpaper_4k.jpg');
+    background-image: url('../img/oak_wallpaper_4k.jpg');
   }
 }
