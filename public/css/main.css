@@ -7,6 +7,7 @@
   height: 60vh;
   background-image: url('../img/oak_wallpaper_1120x630.jpg');
   background-size: cover;
+  background-position: center center;
   display: flex;
   justify-content: left;
 }
